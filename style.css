@@ -59,7 +59,7 @@ h2 {
     color: var(--primary-color);
 }
 
-/* --- Botões --- */
+/* Botões */
 .btn {
     padding: 0.75rem 1.5rem;
     border: none;
@@ -105,7 +105,7 @@ h2 {
     padding: 0.5rem 0.8rem;
 }
 
-/* --- Lista de Propostas --- */
+/* Lista de Propostas */
 #new-proposal-btn {
     margin-bottom: 1.5rem;
 }
@@ -168,7 +168,7 @@ h2 {
 .edit-btn { color: var(--primary-color); }
 .delete-btn { color: var(--danger-color); }
 
-/* --- Formulário --- */
+/* Formulário */
 #welcome-message {
     text-align: center;
     padding: 4rem 2rem;
@@ -250,17 +250,18 @@ textarea {
 }
 
 .header-container {
-  display: flex; /* Alinha os itens lado a lado */
-  align-items: center; /* Centraliza verticalmente a logo e o título */
+  display: flex; 
+  align-items: center; 
 }
 
 .site-logo {
-  margin-right: 40px; /* Adiciona um espaço entre a logo e o título */
+  margin-right: 40px; 
 }
 
-/* Responsividade */
+
 @media (max-width: 900px) {
     .container {
         flex-direction: column;
     }
+
 }
